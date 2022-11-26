@@ -1,0 +1,18 @@
+1.	Extract all the files from the FDAD_ML.zip file to your working directory.
+2.	Follow these instructions (https://conda.io/projects/conda/en/latest/user-guide/install/index.html) to install Anaconda.
+3.	Open Anaconda Prompt. 
+4.	Change directory (cd) to your working directory.
+5. 	Create a new Conda environment using the environment.yml file: 
+
+		$ conda env create -f environment.yml
+
+5.	Activate the new environment:
+
+		$ conda activate FDAD_ML
+
+6.	Open the coursework notebook with Jupyter Notebook:
+ 
+		$ jupyter notebook FDAD_ML.ipynb
+
+7.	To run the entire code (including model training): Cell > Run All
+	To upload trained models and run model evaluation, start running from the section titled “Load”: Cell > Run All Below 
