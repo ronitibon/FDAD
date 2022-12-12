@@ -1,4 +1,6 @@
 %% MAIN SCRIPT: FDAD
+% created by Roni Tibon roni.tibon@city.ac.uk 
+% available on https://github.com/ronitibon/FDAD
 
 % Matlab version: R2020a
 
@@ -44,7 +46,7 @@ save fdstats_BioFIND stats
 
 %% ADNI
 
-% Calculate DF
+% Calculate FD
 
 Def.subpath = '/imaging/henson/users/rt01/MSc_Project/ADNI';        % path for inputs
 Def.outpath = '/imaging/henson/users/rt01/MSc_Project/GroupData';   % path for outputs
